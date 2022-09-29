@@ -3,6 +3,7 @@
     <head>
         <title>Matcha - Bedu </title>
         <style>
+
             h1 {
                 color:#025157;
             }
@@ -15,17 +16,91 @@
             .p2{
                 color:#8b8b8b
             }
-            button{
+            .try{
                 background-color: #025157;
                 color:#fff;
             }
+            .start{
+                background-color: #67b54b ;
+                color:#fff;
+                padding: 12px 14px;
+                border:none;
+                border-radius: 5px;
+               
+
+            }
+            .header{
+                margin: 40px 20px 0px 20px;
+                font-size: 0px;
+            }
+            li{
+                display: inline;
+                color:#025157;
+                margin:0px 25px;
+            }
+            .header > * {
+                display: inline-block;
+                font-size: 16px;
+                vertical-align: middle;
+                height: 100%;
+                line-height: 45px;
+                font-family: sans-serif;
+            }
+            .logo{
+                width: 15%;
+            }
+            .logo > img {
+                width:50%
+            }
+            .navbar{
+                width: 70%;
+                font-weight: 500;
+                text-align: center; 
+            }
+            .actions{
+                width: 15%;
+                font-weight: 700;
+                text-align: right;
+                
+            }
+            .actions > *{
+
+                font-size: 14px;
+                margin: 0px 10px;
+
+            }
+            .actions > a{
+
+            color:#67b54b ;
+
+            }
+            .main{
+                margin-top: 140px;
+                text-align: center;
+            }
+
         </style>
     </head>
-
-
     <body>
-        
-            <h1>Build your blog. 
+        <header class="header">
+            <a href="#" class="logo"><img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"  alt="Matcha" /></a>
+            <nav class="navbar">
+                <ul>
+                    <li>Platform</li>
+                    <li>Pricing</li> 
+                    <li>Customers</li>
+                    <li>Resources</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+            <div class="actions">
+                <a>Sign In</a>
+                <button class="start">Start free trial</button>
+            </div>
+
+        </header>
+        <section class="main">
+                <h1>Build your blog. 
                 Build your business.</h1>
             <p class="p1">Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.</p> 
             <!-- -->
@@ -35,10 +110,13 @@
 
             <form>
                 <input type="email"  />
-                <button>Try it now &rarr;</button>
+                <button class="try">Try it now &rarr;</button>
             </form>
             <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4be27a080000640005083b6d/0x0.png" alt="Mi imagen google"/>
        
+        </section>
+        
+        
     </body>
 
 </html>
