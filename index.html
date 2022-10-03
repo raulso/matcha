@@ -2,11 +2,12 @@
 <html>
     <head>
         <title>Matcha - Bedu </title>
-        <link rel="stylesheet" href="styles.css" type="text/css">
-       
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><!-- vieport   content -- Tamaño del contenido --->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     </head>
     <body>
-        <header class="header">
+        <!-- <header class="header">
             <a href="#" class="logo"><img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"  alt="Matcha" /></a>
             <nav class="navbar">
                 <ul>
@@ -22,24 +23,67 @@
                 <button class="start">Start free trial</button>
             </div>
 
-        </header>
+        </header> -->
+
+
+        <nav class="navbar navbar-expand-lg bg-light  sticky-top">
+            <div class="container-fluid">
+                <a href="#" class="logo"><img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"  alt="Matcha" /></a>
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                 
+                    <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Platform</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link ">Customers</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link ">Resources</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link ">About</a>
+                  </li>
+                </ul>
+                <div class="actions">
+                    <a>Sign In</a>
+                    <button class="start">Start free trial</button>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+
         <section class="main">
                 <h1>Build your blog. 
                 Build your business</h1>
             <p class="p1">Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.</p> 
             <!-- -->
 
-           <p class="p2">Start publishing today with a <B>free 7-day trial.<br>
-            No credit card</B> required.</p> 
-
+          
             <form>
-                <input type="email"  />
-                <button class="try">Try it now &rarr;</button>
+                <p class="p2">Start publishing today with a <B>free 7-day trial.<br>
+                No credit card</B> required.</p> 
+                <div  class="publish-actions">
+                    <input type="email"  />
+                    <button class="try">Try it now &rarr;</button>
+                </div>
             </form>
             <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4be27a080000640005083b6d/0x0.png" alt="Mi imagen google"/>
        
         </section>
-
+.
         <section  class="container">
             <div class="publishVid">
                 <video controls autoplay muted poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
@@ -62,6 +106,51 @@
                 </form>
             </article>
         </section>
+        <section class="features">
+            <article class="main-content">
+                <div class="div-content">
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png" height="50px" alt="Publish icon">
+                    <h1>Fill your blog with engaging articles.</h1>
+                    <p class="p2">Publish to your blog in less time than it takes to drink your morning coffee.</p>
+                    <a href="#">Publish instantly →</a>
+                </div>
+                <img height="50px" src=" https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="Publish icon">
+            </article>
+
+            <article class="main-content">
+                <div class="div-content">
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" height="50px" alt="Publish icon">
+                    <h1>Attract and engage more website visitors.</h1>
+                    <p class="p2">Enhance your email, social media channels, and paid ads with content from Matcha.</p>
+                    <a href="#">Get more site traffic →</a>
+                </div>
+               <img height="50px" src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" alt="Site traffic example">
+            </article>
+
+            <article class="main-content">
+                <div class="div-content">
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" height="50px" alt="Capture icon">
+                    <h1>Capture more emails with locked content.</h1>
+                    <p class="p2">Convert 10x more of your traffic into subscribers and nurture them to a sale.</p>
+                    <a href="#">Grow your email list faster →</a>
+                </div>
+                <img height="50px" src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" alt="Capture example">
+            </article>
+
+            <article class="main-content">
+                <div class="div-content">
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png"  alt="ROI icon">
+                    <h1>Optimize your blog’s performance.</h1>
+                    <p class="p2">See what content delivers the most traffic, engagement, email subscribers, and sales.</p>
+                    <a href="#">See content’s ROI → </a>
+                </div>
+                <img  src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="ROI example">
+            </article>
+
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
 
         
         

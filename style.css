@@ -1,19 +1,21 @@
-  h1 {
-                color:#025157;
-            }
-            body {
-                background-color:  #fffbf7;
-                
-            }
-            .p1{
-                color:#46484c;
-            }
-            .p2{
-                color:#8b8b8b
-            }
-            .p3{
-                color:#343434
-            }
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+
+h1 {
+         color:#025157;
+    }
+body {
+        background-color:  #fffbf7;
+
+    }
+.p1{
+     color:#46484c;
+    }
+.p2{
+    color:#8b8b8b
+    }
+.p3{
+    color:#343434
+    }
             .try{
                 background-color: #025157;
                 color:#fff;
@@ -32,7 +34,7 @@
             .header{
                 margin: 40px 20px 0px 20px;
                 font-size: 0px;
-                position: fixed;
+                /*position: fixed;*/
                 top:0px
 
             }
@@ -56,14 +58,16 @@
                 width:50%
             }
             .navbar{
-                width: 70%;
+                /* width: 70%; */
                 font-weight: 500;
                 text-align: center; 
-            }
+            } 
             .actions{
-                width: 15%;
-                font-weight: 700;
+                font-weight: 600;
                 text-align: right;
+                display: flex;
+                align-items: center;
+                gap: 12px;
                 
             }
             .actions > *{
@@ -84,6 +88,8 @@
             .container{
                 display: flex;
                 gap: 12px;
+           
+                
             }
             .publish{
                 display: flex;
@@ -93,10 +99,147 @@
                 display: flex;
                 flex-direction: column;
             }
-            .publishVid{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+.publishVid{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
             
-            }
+}
+.features{
+    margin: 120px 0px;
+    padding: 60px 120px;
+    background-color: #025157;
+    display: grid;
+   /* grid-template-columns: 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template:repeat(2, 1fr) / repeat(2, 1fr);
+   /* grid-template-columns: repeat(2, 1fr);
+   50vh 
+   */
+
+   /* grid-template-rows: 100px 200px;*/
+   /*grid-template-rows: repeat(2, 1fr);*/
+   background-color: #025157;
+   
+
+    
+}
+button:hover{
+    opacity: 0.5;
+}
+.main-content{
+    display: grid;
+    grid-template-columns:1fr 80px;
+    background-color: white;
+    margin:30px 15px 0px 15px;
+    border-radius: 10px;
+}
+
+.main-content > img {
+   margin-top: 10px;
+}
+.div-content > a{
+    color:#67b54b;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.div-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5px;
+    padding: 15px;
+   
+}
+
+.div-content > h1{
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:"Alegreya", sans-serif !important;
+}
+@media(max-width:575px){
+   
+        .navbar, .actions{
+            display: none;
+        }
+        h1{
+            font-size: 30px;
+        }
+        .main{
+            margin-top: 80px;
+        }
+        .main > img{
+            width: 100%;
+        }
+        .container{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 80px;
+        }
+
+        .publishVid{
+            max-width:90%    ;
+        }
+        .publish h3{
+            font-size: 25px;
+
+        } 
+        .publish p{
+            line-height: 24px;
+        }
+        .publish-actions{
+            display: grid;
+            grid-template-columns: 1fr 120px;
+
+        }
+        .main-content > img{
+            display:none;
+        }
+
+        .features{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 1fr);
+            
+            grid-template: repeat(4, 1fr) / 1fr;
+            padding-left: 12px;
+            padding-right: 12px;
+          }
+
+
+
+
+
+}
+@media((min-width:576px) and (max-width:767px) ){
+    body{
+        
+    }
+
+}
+
+@media((min-width:768px) and (max-width:991px) ){
+    body{
+       
+    }
+
+}
+
+@media((min-width:992px) and (max-width:1199px) ){
+    body{
+       
+    }
+
+}
+
+@media((min-width:1200px) ){
+    body{
+       
+    }
+
+}
 
