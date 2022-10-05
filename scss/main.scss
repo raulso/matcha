@@ -49,4 +49,49 @@
         width: 180px;
         margin-bottom: 15px;
     }
+
+    .card-title{
+        font-size: $textsize-card-title;
+        color: $gray-dark;
+    }
+   
+    .card-body{
+        & > p{
+            .category{
+                color:$light-green-text;
+
+            }
+
+            .read-time{
+                color: $gray-light;
+            }
+            .card-text{
+                font-size: 18px;
+                color: $gray-dark;
+                & > span{
+                    a{
+                        text-decoration: underline;
+                    }
+                 }   
+            }
+        }
+        .author{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            
+            img{
+                border-radius: 50%;
+                width: 50px;
+                
+
+            }
+            p{
+                font-weight: 600;
+            }
+        }
+    }
+
 }

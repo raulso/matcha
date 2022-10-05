@@ -37,4 +37,35 @@
   padding: 12px;
   width: 180px;
   margin-bottom: 15px;
+}
+.blog .card-title {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.blog .card-body > p .category {
+  color: #67b54b;
+}
+.blog .card-body > p .read-time {
+  color: #979797;
+}
+.blog .card-body > p .card-text {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+.blog .card-body > p .card-text > span a {
+  text-decoration: underline;
+}
+.blog .card-body .author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.blog .card-body .author img {
+  border-radius: 50%;
+  width: 50px;
+}
+.blog .card-body .author p {
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
