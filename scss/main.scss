@@ -43,11 +43,16 @@
     }
 
     button{
-        height: auto;
-        border-radius: 8px;
-        padding:12px;
-        width: 180px;
-        margin-bottom: 15px;
+            height: auto;
+            border-radius: 8px;
+            padding:12px;
+            width: 180px;
+            margin-bottom: 15px;
+        
+        &:hover{
+                background-color: red;
+            }
+
     }
 
     .card-title{
@@ -90,6 +95,7 @@
             }
             p{
                 font-weight: 600;
+                margin-top: 0;
             }
         }
     }
