@@ -60,11 +60,11 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 .blog .card-body .author img {
   border-radius: 50%;
-  width: 50px;
+  width: 40px;
 }
 .blog .card-body .author p {
   font-weight: 600;
